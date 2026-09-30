@@ -1,0 +1,16 @@
+{
+  "name": "qa-automation-assignment",
+  "version": "1.0.0",
+  "description": "Playwright + TypeScript UI and API automation assignment",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test tests/ui",
+    "test:api": "playwright test tests/api",
+    "test:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
